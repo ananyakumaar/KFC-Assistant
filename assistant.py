@@ -47,7 +47,7 @@ def chat_with_gemini(prompt):
         response.raise_for_status()
         response_json = response.json()
         
-        # Extract content from the response
+    
         if 'candidates' in response_json and len(response_json['candidates']) > 0:
             return response_json['candidates'][0]['content']['parts'][0]['text']
         else:
