@@ -3,7 +3,7 @@ import speech_recognition as sr
 import mysql.connector
 import requests
 
-GEMINI_API_KEY = 'AIzaSyAUGR8InzzEjXgc5AyTnR9kLObx3qYRrvs'
+GEMINI_API_KEY = 'YOUR API KEY'
 
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
